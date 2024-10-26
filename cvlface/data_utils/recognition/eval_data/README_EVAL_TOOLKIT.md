@@ -6,7 +6,7 @@ It is an instruction on how to download and set up the evaluation toolkit requir
 ### Downloading the Evaluation Toolkit
 To access the evaluation toolkit:
 
-1. **Download the Toolkit**: Click on this externally hosted [link](https://drive.google.com/file/d/1NSjSs__RlgJjGPJTWCY9EzTJUx-WRuaq/view?usp=sharing) to download the evaluation toolkit zip file.
+1. **Download the Toolkit**: Click on this externally hosted [link](https://drive.google.com/file/d/1oEvQdseNhcWdBh2X7l2bMK_BfBZX8JCZ/view?usp=sharing) to download the evaluation toolkit zip file.
 
 2. **Setup Instructions**: After downloading, decompress the zip file into the designated directory specified by `$DATA_ROOT` in your `.env` file. The expected directory structure should be `$DATA_ROOT/facerec_val`.
 
