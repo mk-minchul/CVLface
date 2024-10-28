@@ -1,0 +1,4 @@
+name: 'partial_fc'
+sample_rate: 0.1
+start_from: ''
+freeze: False

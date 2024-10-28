@@ -1,0 +1,8 @@
+
+margin_loss_name: 'margin'
+
+# partialFC
+interclass_filtering_threshold: 0
+
+# margin for combined CE
+margin_list: [ 1.0, 0.0, 0.4 ]

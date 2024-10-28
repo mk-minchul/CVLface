@@ -1,0 +1,12 @@
+
+num_epoch: 26
+optimizer: 'sgd'
+lr: 0.1
+momentum: 0.9
+weight_decay: 0.0005
+scheduler: 'step'
+filter_bias_and_bn: true
+warmup_epoch: 1
+lr_milestones: [12, 20, 24]
+lr_lambda: 0.1
+max_grad_norm: 5.0

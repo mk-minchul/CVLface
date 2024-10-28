@@ -1,0 +1,15 @@
+augmentation_version: 'gridsample'
+aug_params: { 'scale_min': 0.8,
+              'scale_max': 1.2,
+              'rot_prob': 0.2,
+              'max_rot': 20,
+              'hflip_prob': 0.5,
+              'extra_offset': 0.1,
+              'photometric_num_ops': 2,
+              'photometric_magnitude': 14,
+              'photometric_magnitude_offset': 9,
+              'photometric_num_magnitude_bins': 31,
+              'blur_magnitude': 1.0,
+              'blur_prob': 0.2,
+              'cutout_prob': 0.2,}
+disable_aug_during_warmup: False

@@ -1,0 +1,5 @@
+data_root: ${oc.env:DATA_ROOT}
+eval_every_n_epochs: -1
+per_epoch_evaluations: {
+}
+

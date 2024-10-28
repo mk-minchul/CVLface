@@ -1,0 +1,17 @@
+input_size: [3, 112, 112]
+color_space: 'RGB'
+name: 'small'
+output_dim: 512
+start_from: ''
+freeze: False
+
+mask_ratio: 0.0
+rpe_config:
+  name: KPRPE_shared
+  rpe_on: k
+  shared_head: True
+  mode: ctx
+  method: product
+  ratio: 1.9
+  ctx_type: 'rel_keypoint_splithead_unshared'
+  num_keypoints: 5

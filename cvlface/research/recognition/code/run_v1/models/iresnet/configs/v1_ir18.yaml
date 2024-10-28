@@ -1,0 +1,6 @@
+input_size: [3, 112, 112]
+color_space: 'RGB'
+name: 'ir18'
+output_dim: 512
+start_from: ''
+freeze: False

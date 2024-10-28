@@ -1,0 +1,5 @@
+
+augmentation_version: 'basic'
+aug_params: { 'crop_augmentation_prob': 0.2,
+              'photometric_augmentation_prob': 0.2,
+              'low_res_augmentation_prob': 0.2}

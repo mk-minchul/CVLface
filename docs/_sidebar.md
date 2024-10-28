@@ -1,0 +1,14 @@
+- Getting started
+
+  - [Quick start](pages/quickstart.md)
+  - [Code Structure](pages/code-structure.md)
+- Face Recognition
+  - Models
+    - [Pretrained Models](pages/pretrained_models.md)
+    - [Download Models](pages/download_models.md)
+  - Datasets
+    - [Training Datasets](pages/train_datasets.md)
+    - [Evaluation Datasets](pages/eval_datasets.md)
+- Apps
+  - [Face Alignment App](pages/face_alignment.md)
+  - [Face Verification App](pages/face_verification.md)

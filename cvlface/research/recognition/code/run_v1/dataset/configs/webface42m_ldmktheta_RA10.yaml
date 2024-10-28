@@ -1,0 +1,17 @@
+
+data_root: ${oc.env:DATA_ROOT}
+rec: 'webface260m/WebFace42M'
+color_space: 'RGB'
+num_classes: 2059906
+num_image: 42474557
+
+resample_dataset: 'removing_indices.npy'
+
+repeated_sampling_cfg:
+  use_same_image: False
+  second_img_augment: False
+  ldmk_path: 'ldmk_5points.csv'
+  disable_repeat: True  # performs repeated aug without increasing batch size
+  skip_aug_prob_in_disable_repeat: 0.0
+  repeated_augment_prob: 0.1
+semi_sampling_cfg: null

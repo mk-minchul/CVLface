@@ -1,0 +1,6 @@
+name: lora
+model_ckpt_dir: ''
+classifier_ckpt_dir: ''
+center_paths: []
+target_modules: att_qkv
+lora_rank: 16

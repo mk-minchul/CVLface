@@ -1,0 +1,12 @@
+defaults:
+  - trainers : configs/default
+  - optims : configs/cosine
+  - pefts: configs/none
+  - models: vit/configs/v1_small
+  - classifiers: configs/partial_fc
+  - aligners: configs/none
+  - dataset: configs/casia
+  - data_augs: configs/v7
+  - losses: configs/adaface
+  - pipelines: configs/train_model_cls
+  - evaluations: configs/base

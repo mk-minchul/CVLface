@@ -1,0 +1,9 @@
+
+data_root: ${oc.env:DATA_ROOT}
+rec: 'synthetic'
+color_space: 'RGB'
+num_classes: 205990
+num_image: 4235242
+
+repeated_sampling_cfg: null
+semi_sampling_cfg: null

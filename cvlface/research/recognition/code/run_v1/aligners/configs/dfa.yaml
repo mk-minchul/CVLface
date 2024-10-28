@@ -1,0 +1,10 @@
+name: differentiable_face_aligner
+arch: 'mobile0.25'
+start_from: '../../../../pretrained_models/alignment/dfa_mobilenet/mobilenet0.25.pth'
+freeze: True
+
+input_padding_ratio: 0 # pad the input to this size before resize
+input_padding_val: 'zero'
+input_size: 160  # resize the input to this size
+output_size: 112  # size of the output of aligner
+color_space: 'RGB'  # color space of the input image

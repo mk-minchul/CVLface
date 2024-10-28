@@ -1,0 +1,61 @@
+data_root: ${oc.env:DATA_ROOT}
+eval_every_n_epochs: 1
+per_epoch_evaluations: {
+  "lfw": {
+    'path': 'facerec_val/lfw',
+    'evaluation_type': 'verification',
+    'color_space': 'RGB',
+    'batch_size': 32,
+    'num_workers': 4
+  },
+  "agedb_30": {
+    'path': 'facerec_val/agedb_30',
+    'evaluation_type': 'verification',
+    'color_space': 'RGB',
+    'batch_size': 32,
+    'num_workers': 4
+  },
+  "cfpfp": {
+    'path': 'facerec_val/cfp_fp',
+    'evaluation_type': 'verification',
+    'color_space': 'RGB',
+    'batch_size': 32,
+    'num_workers': 4
+  },
+  "cplfw": {
+    'path': 'facerec_val/cplfw',
+    'evaluation_type': 'verification',
+    'color_space': 'RGB',
+    'batch_size': 32,
+    'num_workers': 4
+  },
+  "calfw": {
+    'path': 'facerec_val/calfw',
+    'evaluation_type': 'verification',
+    'color_space': 'RGB',
+    'batch_size': 32,
+    'num_workers': 4
+  },
+  "IJBB_gt_aligned": {
+    'path': 'facerec_val/IJBB_gt_aligned',
+    'evaluation_type': 'ijbbc',
+    'color_space': 'RGB',
+    'batch_size': 32,
+    'num_workers': 4
+  },
+  "IJBC_gt_aligned": {
+    'path': 'facerec_val/IJBC_gt_aligned',
+    'evaluation_type': 'ijbbc',
+    'color_space': 'RGB',
+    'batch_size': 32,
+    'num_workers': 4
+  },
+  "tinyface": {
+    'path': 'facerec_val/tinyface_aligned_pad_0.1',
+    'evaluation_type': 'tinyface',
+    'color_space': 'RGB',
+    'batch_size': 32,
+    'num_workers': 4
+  },
+}
+

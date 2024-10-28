@@ -1,0 +1,12 @@
+
+num_epoch: 36
+optimizer: 'adamw'
+lr: 0.0001
+momentum: 0.9
+weight_decay: 0.05
+scheduler: 'cosine'
+filter_bias_and_bn: true
+warmup_epoch: 3
+max_grad_norm: 5.0
+lr_milestones: []
+

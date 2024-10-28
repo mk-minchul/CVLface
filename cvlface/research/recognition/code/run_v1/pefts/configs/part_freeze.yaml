@@ -1,0 +1,5 @@
+name: part_freeze
+model_ckpt_dir: ''
+classifier_ckpt_dir: ''
+center_paths: []
+target_modules: blocks.20

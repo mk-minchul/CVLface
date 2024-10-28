@@ -1,0 +1,12 @@
+data_root: ${oc.env:DATA_ROOT}
+eval_every_n_epochs: 1
+per_epoch_evaluations: {
+  "lfw": {
+    'path': 'facerec_val/lfw',
+    'evaluation_type': 'verification',
+    'color_space': 'RGB',
+    'batch_size': 32,
+    'num_workers': 4
+  },
+}
+

@@ -1,0 +1,15 @@
+loaders:
+  - type: python
+    search_path: ["./tmp"]
+
+processors:
+  - type: filter
+    documented_only: true
+  - type: smart
+  - type: crossref
+
+renderer:
+  type: markdown
+  descriptive_class_title: false
+  add_method_class_prefix: true
+  render_toc: false

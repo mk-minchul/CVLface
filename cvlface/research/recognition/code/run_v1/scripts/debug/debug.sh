@@ -1,0 +1,10 @@
+trainers=configs/debug
+models=vit/configs/v1_base
+data_augs=configs/gridsample_v1
+dataset=configs/casia
+pipelines=configs/train_model_cls
+aligners=configs/none
+classifiers=configs/partial_fc
+evaluations=configs/quick
+trainers.batch_size=8
+trainers.limit_num_batch=128

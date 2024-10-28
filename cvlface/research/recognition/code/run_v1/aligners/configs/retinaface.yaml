@@ -1,0 +1,3 @@
+name: retinaface
+start_from: ''
+freeze: True

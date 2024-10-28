@@ -1,0 +1,9 @@
+
+data_root: ${oc.env:DATA_ROOT}
+rec: 'casia_webface'
+color_space: 'RGB'
+num_classes: 10572
+num_image: 490623
+
+repeated_sampling_cfg: null
+semi_sampling_cfg: null
