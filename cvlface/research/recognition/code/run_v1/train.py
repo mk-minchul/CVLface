@@ -40,6 +40,7 @@ from pefts import apply_peft
 from general_utils.dist_utils import verify_ddp_weights_equal
 from functools import partial
 from fabric.fabric import setup_dataloader_from_dataset
+from omegaconf import OmegaConf
 
 
 if __name__ == '__main__':
@@ -59,6 +60,9 @@ if __name__ == '__main__':
         wandb_logger = WandbLogger(project=cfg.trainers.task, save_dir=cfg.trainers.output_dir,
                                    name=os.path.basename(cfg.trainers.output_dir),
                                    log_model=False)
+        print(f"Logging all of the hyperparameters for WandB logger.")
+        dict_config = OmegaConf.to_container(cfg, resolve=True)
+        wandb_logger.log_hyperparams(dict_config)
         loggers.append(wandb_logger)
 
     # grad_max_norm?
