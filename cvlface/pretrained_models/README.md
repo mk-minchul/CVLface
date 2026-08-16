@@ -3,7 +3,7 @@
 
 ## Face Recognition Performance Board
 
-| Arch          | Loss         | Dataset    | Link                                                                          | AVG   | LFW   | CPFLW | CFPFP | CALFW | AGEDB | IJBB@0.01 | IJBC@0.01 | TinyFace R1 | TinyFace R5 |
+| Arch          | Loss         | Dataset    | Link                                                                          | AVG   | LFW   | CPLFW | CFPFP | CALFW | AGEDB | IJBB@0.01 | IJBC@0.01 | TinyFace R1 | TinyFace R5 |
 |---------------|--------------|------------|-------------------------------------------------------------------------------|-------|-------|-------|-------|-------|-------|-----------|-----------|-------------|-------------|
 | ViT KPRPE [1] | AdaFace [2]  | WebFace12M | To be released on Aug.                                                        | 93.13 | 99.82 | 95.65 | 99.30 | 95.93 | 98.10 | 96.55     | 97.82     | 76.10       | 78.92       |
 | ViT KPRPE [1] | AdaFace [2]  | WebFace4M  | [🤗](https://huggingface.co/minchul/cvlface_adaface_vit_base_kprpe_webface4m) | 92.76 | 99.83 | 95.40 | 99.01 | 96.00 | 97.67 | 95.56     | 97.13     | 75.75       | 78.49       |
