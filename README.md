@@ -7,7 +7,7 @@ CVLFace is a powerful and versatile toolkit for achieving state-of-the-art perfo
 
 * **Blazing Fast Multi-GPU Training:**  Train industry-leading face recognition models with lightning speed, leveraging the power of multiple GPUs for unparalleled efficiency.
 * **Pre-trained Models at Your Fingertips:** Access a collection of pre-trained models (from Hugging Face Hub) ready to be integrated into your projects, saving you time and effort.
-* **Comprehensive Evaluation Capabilities:**  Thoroughly evaluate your models on a wide range of benchmark datasets, including LFW, CPFLW, CFPFP, CALFW, AGEDB, IJBB, IJBC, and TinyFace, all with the speed of multi-GPU processing.
+* **Comprehensive Evaluation Capabilities:**  Thoroughly evaluate your models on a wide range of benchmark datasets, including LFW, CPLFW, CFPFP, CALFW, AGEDB, IJBB, IJBC, and TinyFace, all with the speed of multi-GPU processing.
 * **Using face recognition models as loss functions for other tasks:**  Utilize face recognition models as auxiliary loss functions for other tasks, such as training ID consistent face generation models (e.g. [DCFace](https://arxiv.org/pdf/2304.07060))
 
 **CVLFace is created by [MSU CVLab](https://cvlab.cse.msu.edu/) to foster innovation, collaboration, and accessibility in the field of face recognition. It is built upon a foundation of cutting-edge research and technology, offering a user-friendly experience for both beginners and seasoned practitioners.**
@@ -41,7 +41,7 @@ CVLFace is a powerful and versatile toolkit for achieving state-of-the-art perfo
    * [4] [CosFace: Large Margin Cosine Loss for Deep Face Recognition](https://arxiv.org/abs/1801.09414)
 * **Performance Board** : [pretrained_models/README.md](cvlface/pretrained_models/README.md)
 
-| Arch          | Loss         | Dataset    | Link                                                                           | AVG   | LFW   | CPFLW | CFPFP | CALFW | AGEDB | IJBB@0.01 | IJBC@0.01 | TinyFace R1 | TinyFace R5 |
+| Arch          | Loss         | Dataset    | Link                                                                           | AVG   | LFW   | CPLFW | CFPFP | CALFW | AGEDB | IJBB@0.01 | IJBC@0.01 | TinyFace R1 | TinyFace R5 |
 |---------------|--------------|------------|--------------------------------------------------------------------------------|-------|-------|-------|-------|-------|-------|-----------|-----------|-------------|-------------|
 | ViT KPRPE [1] | AdaFace [2]  | WebFace12M | [🤗](https://huggingface.co/minchul/cvlface_adaface_vit_base_kprpe_webface12m) | 93.13 | 99.82 | 95.65 | 99.30 | 95.93 | 98.10 | 96.55     | 97.82     | 76.10       | 78.92       |
 | ViT KPRPE [1] | AdaFace [2]  | WebFace4M  | [🤗](https://huggingface.co/minchul/cvlface_adaface_vit_base_kprpe_webface4m)  | 92.76 | 99.83 | 95.40 | 99.01 | 96.00 | 97.67 | 95.56     | 97.13     | 75.75       | 78.49       |
