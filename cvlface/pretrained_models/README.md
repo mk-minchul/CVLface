@@ -24,7 +24,7 @@
    * [2] [AdaFace: Quality Adaptive Margin for Face Recognition](https://arxiv.org/abs/2204.00964)
    * [3] [ArcFace: Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/abs/1801.07698)
    * [4] [LFW: Labeled faces in the wild: A database forstudying face recognition in unconstrained environments](https://vis-www.cs.umass.edu/lfw/lfw.pdf)
-   * [5] [CPFLW: Cross-pose lfw: A database for studying cross-pose face recognition in unconstrained environments](http://www.whdeng.cn/cplfw/?reload=true)
+   * [5] [CPLFW: Cross-pose lfw: A database for studying cross-pose face recognition in unconstrained environments](http://www.whdeng.cn/cplfw/?reload=true)
    * [6] [CFPFP: Frontal to profile face verification in the wild](https://ieeexplore.ieee.org/document/7477558)
    * [7] [CALFW: Cross-Age LFW: A Database for Studying Cross-Age Face Recognition in Unconstrained Environments](https://arxiv.org/abs/1708.08197)
    * [8] [AGEDB: The First Manually Collected, In-the-Wild Age Database](https://ieeexplore.ieee.org/document/8014984)

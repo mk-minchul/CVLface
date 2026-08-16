@@ -7,7 +7,7 @@
 
 ## Face Recognition Performance Board
 
-| Arch          | Loss         | Dataset    | Link                                                                          | AVG   | LFW   | CPFLW | CFPFP | CALFW | AGEDB | IJBB@0.01 | IJBC@0.01 | TinyFace R1 | TinyFace R5 |
+| Arch          | Loss         | Dataset    | Link                                                                          | AVG   | LFW   | CPLFW | CFPFP | CALFW | AGEDB | IJBB@0.01 | IJBC@0.01 | TinyFace R1 | TinyFace R5 |
 |---------------|--------------|------------|-------------------------------------------------------------------------------|-------|-------|-------|-------|-------|-------|-----------|-----------|-------------|-------------|
 | ViT KPRPE [1] | AdaFace [2]  | WebFace12M | To be released on Aug.                                                        | 93.13 | 99.82 | 95.65 | 99.30 | 95.93 | 98.10 | 96.55     | 97.82     | 76.10       | 78.92       |
 | ViT KPRPE [1] | AdaFace [2]  | WebFace4M  | [🤗](https://huggingface.co/minchul/cvlface_adaface_vit_base_kprpe_webface4m) | 92.76 | 99.83 | 95.40 | 99.01 | 96.00 | 97.67 | 95.56     | 97.13     | 75.75       | 78.49       |
@@ -28,7 +28,7 @@
    * [2] [AdaFace: Quality Adaptive Margin for Face Recognition](https://arxiv.org/abs/2204.00964)
    * [3] [ArcFace: Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/abs/1801.07698)
    * [4] [LFW: Labeled faces in the wild: A database forstudying face recognition in unconstrained environments](https://vis-www.cs.umass.edu/lfw/lfw.pdf)
-   * [5] [CPFLW: Cross-pose lfw: A database for studying cross-pose face recognition in unconstrained environments](http://www.whdeng.cn/cplfw/?reload=true)
+   * [5] [CPLFW: Cross-pose lfw: A database for studying cross-pose face recognition in unconstrained environments](http://www.whdeng.cn/cplfw/?reload=true)
    * [6] [CFPFP: Frontal to profile face verification in the wild](https://ieeexplore.ieee.org/document/7477558)
    * [7] [CALFW: Cross-Age LFW: A Database for Studying Cross-Age Face Recognition in Unconstrained Environments](https://arxiv.org/abs/1708.08197)
    * [8] [AGEDB: The First Manually Collected, In-the-Wild Age Database](https://ieeexplore.ieee.org/document/8014984)
